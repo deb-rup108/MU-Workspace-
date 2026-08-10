@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank Regestration</title>
+</head>
+<body>
+    <h1><CENTER>Blood Donation Form</CENTER></h1>
+    <form>
+        <div>
+
+        <label for="fname">DONOR'S NAME</label>
+        <br>
+        <input type="text" id="fname" name="fname" placeholder="First Name"> 
+        
+        <input type="text" id="lname" name="lname" placeholder="Last Name"> 
+        </div>
+        <br>
+        <div>
+            <label for="dob">DONOR'S DATE OF BIRTH:</label>
+            <br>
+        <input type="date" id="dob" name="dob" placeholder="DD\MM\YYYY">
+        </div>
+        <br>
+        <div>
+            <label for="email">DONOR'S EMAIL:</label>
+        <input type="email" id="email" name="email" placeholder="xyz@gmail.com">
+        </div>
+        <br>
+        <div>
+           <label for="no">PHONE NUMBER:</label>
+        <input type="tel" id="no" name="no" placeholder="91**********">
+        </div>
+        <br>
+        <div>
+            <label for="ad">ADDRESS:</label>
+        <input type="text" id="ad" name="ad" placeholder="*** Colony">
+        </div>
+        <br>
+        <div>
+
+            <label for="Blood Group">BLOOD GROUP:</label>
+            
+            <label>O+</label>
+            <input type="radio" name="title" value="O+">
+
+            <label>O-</label>
+            <input type="radio" name="title" value="O-">
+
+            <label>A+</label>
+            <input type="radio" name="title" value="A+">
+
+            <label>A-</label>
+            <input type="radio" name="title" value="A-">
+
+            <label>AB+</label>
+            <input type="radio" name="title" value="AB+">
+
+            <label>AB-</label>
+            <input type="radio" name="title" value="AB-">
+
+            <label>B+</label>
+            <input type="radio" name="title" value="B+">
+
+            <label>B-</label>
+            <input type="radio" name="title" value="B-">
+        </div>
+        <br>
+        <div>
+            <label for="ag">AGE:</label>
+        <input type="number" id="ag" name="ag" min="18" max="60" value="18">
+        </div>
+        <br>
+        <div>
+            <label for="se">Gender</label>
+            <select  id="se" name="se">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="SUBMIT">
+        </div>
+    </form>
+</body>
+</html>
