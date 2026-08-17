@@ -1,0 +1,12 @@
+{
+    margin: 0;
+    padding: 0;
+    box-shading: border-box;
+    font-family: "Poppins", sans-sherif;
+}
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f400e1 ,#f409);
