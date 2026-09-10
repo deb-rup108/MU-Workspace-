@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: rgb(236, 14, 58);
+}
+#box2{
+    background-color: rgba(10, 224, 138, 0.646);
+}
+#box3{
+    background-color: rgb(68, 6, 169);
+}
+#box4{
+    background-color: rgb(224, 235, 13);
+}
